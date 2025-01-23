@@ -1,0 +1,4 @@
+task       SinglePoint           ! The TASK keyword instructs CASTEP what to do
+xc_functional   LDA           ! Which exchange-correlation functional to use.
+cut_off_energy  500 eV        !
+opt_strategy    speed         ! Choose algorithms for best speed
